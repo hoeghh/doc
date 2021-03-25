@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Doc"
+  description: "test doc"
+  annotations:
+    github.com/project-slug: hoeghh/doc
+    backstage.io/techdocs-ref: url:https://github.com/hoeghh/doc
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "hoeghh"
